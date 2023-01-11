@@ -1,0 +1,24 @@
+{
+  "name": "ae1_com519",
+  "version": "1.0.0",
+  "description": "Assessment files for AE1 of module COM519: Advanced Database Systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizanAhmedSP707/AE1_COM519.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaizanAhmedSP707/AE1_COM519/issues"
+  },
+  "homepage": "https://github.com/FaizanAhmedSP707/AE1_COM519#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
