@@ -4,9 +4,11 @@
   "description": "Assessment files for AE1 of module COM519: Advanced Database Systems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "run": "node app.js"
+    "seedProduction": "cross-env NODE_ENV=production node seeder.js",
+    "seed": "node seeder.js",
+    "run": "node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
